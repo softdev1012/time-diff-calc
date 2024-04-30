@@ -6,7 +6,11 @@
 
 
 
-This template p![capture](D:\Tonny\git_repos\time-diff-calc\demo\capture.png)rovides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![capture](https://github.com/softdev1012/time-diff-calc/blob/main/demo/capture.png)
+
+
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
