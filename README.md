@@ -1,6 +1,12 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+# Time difference calculator
+
+#  React + TypeScript + Vite
+
+
+
+This template p![capture](D:\Tonny\git_repos\time-diff-calc\demo\capture.png)rovides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
