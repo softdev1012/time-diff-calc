@@ -14,8 +14,8 @@ const timezones = {
 };
 
 const App = () => {
-  const [selectedTimezone1, setSelectedTimezone1] = React.useState<ITimezone>('');
-  const [selectedTimezone2, setSelectedTimezone2] = React.useState<ITimezone>('');
+  const [selectedTimezone1, setSelectedTimezone1] = React.useState<ITimezone>(spacetime.now().timezone().name);
+  const [selectedTimezone2, setSelectedTimezone2] = React.useState<ITimezone>(spacetime.now().timezone().name);
 
   const [datetime1, setDatetime1] = useState(spacetime.now());
   const [datetime2, setDatetime2] = useState(spacetime.now());
@@ -37,7 +37,6 @@ const App = () => {
 
     return () => clearInterval(interval);
   }, [selectedTimezone1, selectedTimezone2]);
-
   const selectOptions = {
     timezones,
   };
